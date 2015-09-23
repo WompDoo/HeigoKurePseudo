@@ -6,5 +6,7 @@
 </head>
 <body>
 
+    <button type="button">Tere maailm</button>
+
 </body>
 </html>
