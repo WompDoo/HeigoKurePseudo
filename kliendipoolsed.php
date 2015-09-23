@@ -6,7 +6,7 @@
 </head>
 <body>
 
-    <button type="button">Tere maailm</button>
+    <button><a href="www.khk.ee" a>Tere maailm</button>
 
 </body>
 </html>
