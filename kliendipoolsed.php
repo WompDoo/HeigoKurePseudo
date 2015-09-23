@@ -7,11 +7,11 @@
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="jquery-1.11.3.min.js"></script>
 </head>
-<body>
+<body id="bg">
 <!--Ülesanne 2,3-->
-    <button onclick="myFunction()"><a href="www.khk.ee" a/>Tere maailm</button>
+    <button onclick="myFunctioni()"><a href="www.khk.ee" a/>Tere maailm</button>
     <script>
-        function myFunction() {
+        function myFunctioni() {
             alert("Tere Maailm!");
         }
     </script>
@@ -50,6 +50,31 @@
 
     });
 </script>
+</br>
+<!--- Ülesanne 7--->
+
+<button id="Red" >Red</button>
+<button id="Blue">Blue</button>
+<button id="Green">Green</button>
+<script>
+    $(document).ready(function(){
+        $('#Red').click(function(){
+            $('#bg').css({"background-color":"red"});
+
+        });
+        $('#Blue').click(function(){
+            $('#bg').css({"background-color":"blue"});
+
+        });
+        $('#Green').click(function(){
+            $('#bg').css({"background-color":"green"});
+
+        });
+
+    });
+
+</script>
+
 
 
 </body>
