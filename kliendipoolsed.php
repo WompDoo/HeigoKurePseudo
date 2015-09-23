@@ -38,6 +38,7 @@
         });
     </script>
 -------->
+<!---Ülesanne 6--->
 <img id="kass" src="media/cutecat.jpg">
 <script>
     $(document).ready(function(){
