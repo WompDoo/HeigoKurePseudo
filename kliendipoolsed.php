@@ -6,12 +6,14 @@
 </head>
 <body>
 
-    <button onclick="myFunction()"><a href="www.khk.ee" a>Tere maailm</button>
+    <button onclick="myFunction()"><a href="www.khk.ee" a/>Tere maailm</button>
     <script>
         function myFunction() {
             alert("Tere Maailm!");
         }
     </script>
+
+    <a href="www.khk.ee" onclick="return false;">J‰‰me siia!</a>
 
 </body>
 </html>
