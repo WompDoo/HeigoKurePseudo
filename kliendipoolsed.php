@@ -35,7 +35,7 @@
             {
                 $(this).attr("src","media/cutecat.jpg");
             }
-        });
+        });55555555555555555555555555555544444444444444
     </script>
 -------->
 <!---Ülesanne 6--->
@@ -51,11 +51,11 @@
     });
 </script>
 </br>
-<!--- Ülesanne 7--->
+<!--- Ülesanne 7,8--->
 
-<button id="Red" >Red</button>
-<button id="Blue">Blue</button>
-<button id="Green">Green</button>
+<button id="Red" >red</button>
+<button id="Blue">blue</button>
+<button id="Green">green</button>
 <script>
     $(document).ready(function(){
         $('#Red').click(function(){
