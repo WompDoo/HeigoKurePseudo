@@ -38,8 +38,19 @@
         });55555555555555555555555555555544444444444444
     </script>
 -------->
+
+<script>
+    $(document).ready(function(){
+        $('#HideButton').click(function(){
+            $("div").toggle();
+        });
+    });
+</script>
+
+<button id="HideButton">Peida ja näita</button>
+
 <!---Ülesanne 6--->
-<img id="kass" src="media/cutecat.jpg">
+<div><img id="kass" src="media/cutecat.jpg"></div>
 <script>
     $(document).ready(function(){
         $('#kass').click(function(){
@@ -86,6 +97,7 @@
         }
     }
 </script>
+
 
 
 </body>
