@@ -46,7 +46,7 @@
         });
     });
 </script>
-
+<button id="allow_click">Luba parem klõps</button>
 <button id="HideButton">Peida ja näita</button>
 
 <!---Ülesanne 6--->
@@ -58,8 +58,8 @@
 
         });
 
-
     });
+
 </script>
 </br>
 <!--- Ülesanne 7,8--->
@@ -96,6 +96,10 @@
             return false;
         }
     }
+    $("#allow_click").click(function () {
+        $(document).unbind();
+    });
+
 </script>
 
 
