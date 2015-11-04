@@ -2,9 +2,13 @@
 <html lang="et">
 <head>
     <meta charset="UTF-8">
-    <title>Mihhailova</title>
+    <title>Heigo</title>
 </head>
 <body>
+
+<?php
+$page = (!empty($_GET['page']) ? $_GET['page'] : 'home');
+?>
 
 <form action="?">
     <input name="page">
