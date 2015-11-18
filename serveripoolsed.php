@@ -50,3 +50,11 @@ if (in_array(substr($heigo->ees, 0, 1), $vokaal)) {
 }
 
 
+$floating1 = 1.23;
+$floating2 = 2.34;
+$float_sum = $floating1 + $floating2;
+echo "<p>" . $float_sum . "</p>";
+
+/*echo $_GET['koer'];*/
+?>
+
