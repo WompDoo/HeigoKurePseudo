@@ -58,3 +58,16 @@ echo "<p>" . $float_sum . "</p>";
 /*echo $_GET['koer'];*/
 ?>
 
+
+
+<form action="?" method="post">
+    <input name="kass">
+    <input type="submit">
+</form>
+
+<?php
+if ($_POST["kass"]) {
+    echo "Kass oli: " . $_POST['kass'];
+};
+
+?>
