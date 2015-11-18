@@ -6,9 +6,6 @@
 </head>
 <body>
 
-<?php
-$page = (!empty($_GET['page']) ? $_GET['page'] : 'home');
-?>
 
 <form action="?">
     <input name="page">
@@ -19,6 +16,8 @@ $page = (!empty($_GET['page']) ? $_GET['page'] : 'home');
 if (isset($_GET['page'])) {
     require $_GET['page'] . '.php';
 }
+$page = (!empty($_GET['page']) ? $_GET['page'] : 'home');
+require($page . '.php');
 ?>
 
 </body>
