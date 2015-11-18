@@ -3,8 +3,8 @@
 
 $isik = array(
     "eesnimi => Heigo",
-    "perekonnanimi = Kure",
-    "vanus = 20",
+    "perekonnanimi => Kure",
+    "vanus => 20",
 );
 echo "<p>" . $isik['eesnimi'] . " " . $isik['perekonnanimi'] . " (" . $isik['vanus'] . ")</p>";
 echo "<pre>";
@@ -55,8 +55,9 @@ $floating2 = 2.34;
 $float_sum = $floating1 + $floating2;
 echo "<p>" . $float_sum . "</p>";
 
-echo $_GET['koer'];
+/*echo $_GET['koer'];*/
 ?>
+
 
 
 <form action="?" method="post">

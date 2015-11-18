@@ -9,7 +9,7 @@
 </head>
 <body id="bg">
 <!--Ülesanne 2,3-->
-    <button onclick="myFunctioni()"><a href="www.khk.ee" a/>Tere maailm</button>
+    <button onclick="myFunctioni()"><a href="http://www.khk.ee" a/>Tere maailm</button>
     <script>
         function myFunctioni() {
             alert("Tere Maailm!");
