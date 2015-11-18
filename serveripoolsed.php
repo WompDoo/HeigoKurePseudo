@@ -42,3 +42,11 @@ if ($heigo_algab_vokaaliga) {
 
 
 
+$vokaal = array('A', 'E', 'I', 'O', 'U', 'Õ', 'Ä', 'Ö', 'Ü', 'a', 'e', 'i', 'o', 'u', 'õ', 'ä', 'ö', 'ü');
+if (in_array(substr($heigo->ees, 0, 1), $vokaal)) {
+    $heigo_algab_vokaaliga = true;
+} else {
+    $heigo_algab_vokaaliga = false;
+}
+
+
