@@ -64,24 +64,26 @@
 </br>
 <!--- Ülesanne 7,8--->
 
-<button id="Red" >red</button>
-<button id="Blue">blue</button>
-<button id="Green">green</button>
+<span class="buttons">
+<button id="Blue">yellow</button>
+<button id="Red">purple</button>
+<button id="Green">cyan</button>
+    </span>
+
+<br>
+<!-- 8.ylesanne -->
 <script>
-    $(document).ready(function(){
-        $('#Red').click(function(){
-            $('#bg').css({"background-color":"red"});
-
-        });
-        $('#Blue').click(function(){
-            $('#bg').css({"background-color":"blue"});
-
-        });
-        $('#Green').click(function(){
-            $('#bg').css({"background-color":"green"});
-
-        });
-
+    $('#Blue').click(function () {
+        $('body').css("background-color", "Blue");
+        $('body').css('backgroundColor', $('#Blue').text());
+    });
+    $('#Green').click(function () {
+        $('body').css("background-color", "Green");
+        $('body').css('backgroundColor', $('#Green').text());
+    });
+    $('#Red').click(function () {
+        $('body').css("background-color", "Red");
+        $('body').css('backgroundColor', $('#Red').text());
     });
 
 </script>

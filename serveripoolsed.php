@@ -47,3 +47,27 @@ if (in_array(substr($heigo->ees, 0, 1), $vokaal)) {
     $heigo_algab_vokaaliga = true;
 } else {
     $heigo_algab_vokaaliga = false;
+}
+
+
+$floating1 = 1.23;
+$floating2 = 2.34;
+$float_sum = $floating1 + $floating2;
+echo "<p>" . $float_sum . "</p>";
+
+/*echo $_GET['koer'];*/
+?>
+
+
+
+<form action="?" method="post">
+    <input name="kass">
+    <input type="submit">
+</form>
+
+<?php
+if ($_POST["kass"]) {
+    echo "Kass oli: " . $_POST['kass'];
+};
+
+?>
