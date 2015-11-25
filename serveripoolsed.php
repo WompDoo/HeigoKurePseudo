@@ -36,7 +36,11 @@ echo $_GET['koer'];
     <input type="submit">
 </form>
 
-
+<?php
+if ($_POST["kass"]) {
+    echo "Kass oli: " . $_POST["kass"];
+};
+?>
 
 
 
