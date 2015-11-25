@@ -46,7 +46,7 @@
         });
     });
 </script>
-<button id="allow_click">Luba parem klõps</button>
+
 <button id="HideButton">Peida ja näita</button>
 
 <!---Ülesanne 6--->
@@ -86,6 +86,7 @@
     });
 
 </script>
+
 <!---Ülesanne 9,10--->
 <script>
     document.onmousedown=disableclick;
@@ -97,10 +98,14 @@
             return false;
         }
     }
-    $("#allow_click").click(function () {
-        $(document).unbind();
-    });
 
+
+</script>
+<button id="klops">Luba parem klõps</button>
+<script>
+    $("#klops").click(function () {
+        -$(document).unbind();
+    });
 </script>
 
 
