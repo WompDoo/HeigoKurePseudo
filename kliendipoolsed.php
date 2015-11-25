@@ -71,7 +71,6 @@
     </span>
 
 <br>
-<!-- 8.ylesanne -->
 <script>
     $('#Blue').click(function () {
         $('body').css("background-color", "Blue");
