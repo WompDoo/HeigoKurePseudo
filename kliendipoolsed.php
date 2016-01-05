@@ -9,7 +9,7 @@
 </head>
 <body id="bg">
 <!--Ülesanne 2,3-->
-    <button onclick="myFunctioni()"><a href="http://www.khk.ee" a/>Tere maailm</button>
+    <button onclick="myFunctioni()"><a href="http://www.khk.ee" />Tere maailm</button>
     <script>
         function myFunctioni() {
             alert("Tere Maailm!");
@@ -65,10 +65,10 @@
 <!--- Ülesanne 7,8--->
 
 <span class="buttons">
-<button id="Blue">yellow</button>
-<button id="Red">purple</button>
-<button id="Green">cyan</button>
-    </span>
+    <button id="Blue">Black</button>
+    <button id="Red">purple</button>
+    <button id="Green">cyan</button>
+</span>
 
 <br>
 <script>
@@ -89,16 +89,11 @@
 
 <!---Ülesanne 9,10--->
 <script>
-    document.onmousedown=disableclick;
-    status="Right Click Disabled";
-    function disableclick(event) {
-
-        if(event.button==2) {
-            alert(status);
-            return false;
-        }
-    }
-
+    $(function() {
+        $(this).bind("contextmenu", function(e) {
+            e.preventDefault();
+        });
+    });
 
 </script>
 <button id="klops">Luba parem klõps</button>

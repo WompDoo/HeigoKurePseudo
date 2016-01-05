@@ -1,8 +1,7 @@
 <?php
-$eesnimi = "Heigo";
-$perekonnanimi = "Kure";
-$vanus = "20";
-echo "$eesnimi $perekonnanimi ($vanus)";
+//$eesnimi = "Heigo";
+//$perekonnanimi = "Kure";
+//$vanus = "20";
 $heigo = new isik;
 $vowels = array('A', 'E', 'I', 'O', 'U', 'Õ', 'Ä', 'Ö', 'Ü', 'a', 'e', 'i', 'o', 'u', 'õ', 'ä', 'ö', 'ü');
 if (in_array(substr($heigo->eesnimi, 0, 1), $vowels)) {
@@ -10,6 +9,7 @@ if (in_array(substr($heigo->eesnimi, 0, 1), $vowels)) {
 } else {
     $eesnimi_algab_vokaaliga = false;
 }
+
 echo "<br>";
 class isik
 {
@@ -28,19 +28,24 @@ $a = 1.23;
 $b = 2.34;
 $float_sum= $a + $b;
 echo " $float_sum ";
-echo $_GET['koer'];
-?>
+
+if (!empty($_GET['koer'])) {
+    echo "<p>".$_GET['koer']."</p>";
+}
+
+        if (!empty($_POST['kass'])) {
+            echo "Kass oli: ".$_POST['kass'];
+        }
+    ?>
 
 <form action="?" method="post">
-    <input name="kass">
-    <input type="submit">
+
+    Name  <input name="kass"><br>
+
+    <input type="submit" value="Estia">
+
 </form>
 
-<?php
-if ($_POST["kass"]) {
-    echo "Kass oli: " . $_POST["kass"];
-};
-?>
 
 
 
